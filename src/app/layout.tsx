@@ -44,9 +44,7 @@ export default function RootLayout({
         montserratHeading.variable,
       )}
     >
-      <body className="min-h-full flex flex-col">
-        <ClerkProvider>{children}</ClerkProvider>
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
