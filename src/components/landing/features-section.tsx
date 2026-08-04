@@ -13,6 +13,23 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export function FeaturesSection() {
   return (
     <section id="features" className="bg-primary-background px-6 py-24">
